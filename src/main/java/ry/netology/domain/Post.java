@@ -2,16 +2,16 @@ package ry.netology.domain;
 
 public class Post {
 
-    private String name;
-    private String id;
-    private String viewsInfo;
-    private String likesInfo;
-    private String repostInfo;
-    private String commentsInfo;
-    private String header;
-    private String releaseDate;
-    private String shortDescription;
-    private String numberOfSubscribers;
-    private String postPhoto;
-    private String geoData;
+    private int name;
+    private int id;
+    private int viewsInfo;
+    private int likesInfo;
+    private int repostInfo;
+    private int commentsInfo;
+    private int header;
+    private int releaseDate;
+    private int shortDescription;
+    private int numberOfSubscribers;
+    private int postPhoto;
+    private int geoData;
 }
