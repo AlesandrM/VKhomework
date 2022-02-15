@@ -14,4 +14,6 @@ public class Post {
     private int numberOfSubscribers;
     private int postPhoto;
     private int geoData;
+
+    // +get/set  на все поля
 }
