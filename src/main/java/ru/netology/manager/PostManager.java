@@ -16,13 +16,13 @@ public class PostManager {
         private int groupsCanPost;
     }
 
-   public class likesInfo {
+    public class likesInfo {
         private int count;
         private int userLikes;
         private int canLike;
     }
 
-   public class repostInfo {
+    public class repostInfo {
         private int count;
         private int userReposted;
     }
