@@ -7,9 +7,11 @@ public class Post {
     private int fromId;
     private int createdBy;
     private int date;
+    private String text;
     private int replyOwnerId;
     private int replyPostId;
     private int friendsOnly;
+    private String postType;
     private int signerId;
     private int canPin;
     private int canDelete;
@@ -18,6 +20,11 @@ public class Post {
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
+
+    private CommentsInfo commentsInfo;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
 
 
 }
